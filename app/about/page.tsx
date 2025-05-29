@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from 'next/image';
 
 export default function AboutPage() {
@@ -10,7 +11,7 @@ export default function AboutPage() {
               About My Two ¢
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              We're dedicated to helping you make informed purchasing decisions through detailed product comparisons and expert buyer's guides.
+              We&apos;re dedicated to helping you make informed purchasing decisions through detailed product comparisons and expert buyer&apos;s guides.
             </p>
           </div>
         </div>
@@ -20,7 +21,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Mission</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            At My Two ¢, we believe that every purchase decision deserves careful consideration. Our mission is to provide comprehensive, unbiased product comparisons and detailed buyer's guides to help you find the best products that meet your needs and budget.
+            At My Two ¢, we believe that every purchase decision deserves careful consideration. Our mission is to provide comprehensive, unbiased product comparisons and detailed buyer&apos;s guides to help you find the best products that meet your needs and budget.
           </p>
         </div>
 
@@ -37,7 +38,7 @@ export default function AboutPage() {
               },
               {
                 title: 'Comprehensive Guides',
-                description: 'Our buyer's guides cover everything you need to know about specific product categories, from basic features to advanced considerations.',
+                description: 'Our buyer&apos;s guides cover everything you need to know about specific product categories, from basic features to advanced considerations.',
               },
             ].map((feature) => (
               <div key={feature.title} className="flex flex-col">
@@ -93,7 +94,7 @@ export default function AboutPage() {
         <div className="mx-auto mt-32 max-w-2xl sm:mt-40 lg:mt-48 lg:max-w-none">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact Us</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Have questions or suggestions? We'd love to hear from you. Reach out to us at{' '}
+            Have questions or suggestions? We&apos;d love to hear from you. Reach out to us at{' '}
             <a href="mailto:contact@mytwocents.com" className="text-primary hover:text-primary/90">
               contact@mytwocents.com
             </a>
